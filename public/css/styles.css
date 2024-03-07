@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Raleway:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --body-font: "Open Sans", sans-serif;
+  --title-font: "Raleway", sans-serif;
+}
+
+.heading-login{
+  margin-top: 93px;
+}
+
+.heading-register{
+  margin-top: 63px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.column-form {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.row>* {
+  padding: 0;
+}
+
+.row_container {
+  width: 100%;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.margin {
+  margin-top: 40%;
+}
+
+img {
+  width: 1200px;
+  height: 100vh;
+}
+
+.txt-heading {
+  font-size: 40px;
+  font-family: var(--title-font);
+  font-weight: 500;
+}
+
+.carousel-caption {
+  bottom: 35% !important;
+}
+
+.color {
+  color: #135b69;
+}
+
+.color-grey {
+  color: grey;
+}
+
+.btn-primary {
+  background-color: #135b69 !important;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.col-login {
+  padding: 0px;
+  float: right;
+  text-decoration: none;
+  color: #135b69;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-grid {
+  display: block !important;
+}
+
+.notes-login{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 93px;
+}
+
+.notes-register{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 33px;
+}
+
+.img-blog {
+  width: 1440px;
+  height: 600px;
+}
